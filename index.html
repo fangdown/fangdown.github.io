@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+  <meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+  <meta content="yes" name="apple-mobile-web-app-capable">
+  <meta content="black" name="apple-mobile-web-app-status-bar-style">
+  <meta content="telephone=no" name="format-detection">
+  <meta content="email=no" name="format-detection">
+	<title>首页</title>
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+			box-sizing:border-box;
+		}
+		li{list-style: none;}
+		a{text-decoration:none;color: #000}
+		.clearfix:after{display: block;content: '';height: 0;clear: both}
+		/*主体结构*/
+		.container{background-color: #f5f5f5}
+		.main{width:100%;float: left;}
+		.main .inner{margin:0 200px;background-color: #fff}
+		.left{width: 200px;float: left;margin-left: -100%;background-color: #eee}
+		.right{width:200px;float: left;margin-left: -200px;background-color: #eee}
+		/*文章列表*/
+		.article-box{overflow: hidden}
+		.article-box .title{height: 50px;line-height:50px;text-indent: 10px; border-bottom: 1px solid #999; background:-webkit-linear-gradient(top, #fff, #f2f2f2); font-weight: 700}
+		.article-box .content{}
+		.article-box .content .item{height: 40px;line-height: 40px;border-bottom: 1px solid #ddd;text-indent: 10px;}
+		.article-box .content .item a:hover{color: red}
+	</style>
+</head>
+<body>
+		<div class="container clearfix">
+			<div class="main">
+				<div class="inner">
+					<div class="article-box">
+						<div class="title">基础知识</div>
+						<div class="content">
+							<ul>
+								<li class="item"><a href="./basic/allInOne.md">前端知识体系</a></li>
+								<li class="item"><a href="./basic/jsframe.md">事件、class、宽高基本操作-js</a></li>
+								<li class="item"><a href="./basic/promise.md">promise的原理及实现</a></li>
+								<li class="item"><a href="./basic/es6.md">es6的新特性</a></li>
+								<li class="item"><a href="./basic/es6-arrow.md">es6什么时候不能用箭头函数</a></li>
+								<li class="item"><a href="./basic/es6-spread.md">es6扩展运算符</a></li>
+								<li class="item"><a href="./basic/flex.md">flex基础知识</a></li>
+								<li class="item"><a href="./basic/ie8.md">ie8兼容性</a></li>
+								<li class="item"><a href="./basic/cache.md">浏览器缓存</a></li>
+								<li class="item"><a href="./basic/animation.md">animation动画</a></li>
+								<li class="item"><a href="./basic/extend.md">extend的实现</a></li>
+								<li class="item"><a href="./basic/xss.md">xss csrf的原理</a></li>
+								<li class="item"><a href="./basic/defineProperty.md">vue defineProperty的原理及实现</a></li>
+								<li class="item"><a href="./basic/cross-domain.md">跨域的原理及实现</a></li>
+								<li class="item"><a href="./basic/cors.md">cors详解</a></li>
+								<li class="item"><a href="./basic/array.md">数组算法</a></li>
+								<li class="item"><a href="./basic/closure.md">理解闭包</a></li>
+								<li class="item"><a href="./basic/this.md">理解this</a></li>
+								<li class="item"><a href="./basic/this.md">实现继承的方法</a></li>
+								<li class="item"><a href="./basic/__proto__.md">深入浅出原型链</a></li>
+								<li class="item"><a href="./basic/js-new.md">new 操作符</a></li>
+								<li class="item"><a href="./basic/call-apply-bind.md">深入理解apply、call、bind</a></li>
+								<li class="item"><a href="./basic/checkDataType.md">数据类型判断的四种方法</a></li>
+								<li class="item"><a href="./basic/scope.md">作用域及作用域链</a></li>
+								<li class="item"><a href="./basic/throttle.md">函数节流</a></li>
+								<li class="item"><a href="./basic/amd-cmd.md">AMD CMD的写法及区别</a></li>
+								<li class="item"><a href="./basic/tcp-ip.md">深入浅出TCP/IP协议栈</a></li>
+								<li class="item"><a href="./basic/http1-http2-websocket-https.md">http1.x,http2.0 httpx websocket 区别</a></li>
+								<li class="item"><a href="./basic/http-params.md">http请求参数详解</a></li>
+								<li class="item"><a href="./basic/vue.md">vue的双向绑定原理</a></li>
+								<li class="item"><a href="./basic/jquery.md">jquery核心架构</a></li>
+								<li class="item"><a href="./basic/react.md">react工作原理</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="article-box">
+						<div class="title">进阶-手写插件</div>
+						<div class="content">
+							<ul>
+								<li class="item"><a href="./css/vertical-center.html">垂直居中的七种方法</a></li>
+								<li class="item"><a href="./drag/drag.html">代码库封装</a></li>
+								<li class="item"><a href="./drag/drag.html">拖拽方法</a></li>
+								<li class="item"><a href="./tabpanel/tabpanel.html">tabpanel标签</a></li>
+								<li class="item"><a href="./tab/tab.html">tab标签</a></li>
+								<li class="item"><a href="./select/select.html">下拉列表</a></li>
+								<li class="item"><a href="./suggest/suggest.html">搜索联想</a></li>
+								<li class="item"><a href="./pagination/pagination.html">分页</a></li>
+								<li class="item"><a href="./layout/layout.html">页面布局</a></li>
+								<li class="item"><a href="./lazyload/lazyload.html">图片懒加载</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="article-box">
+						<div class="title">随心-盲写</div>
+						<div class="content">
+							<ul>
+								<li class="item"><a href="./bat/datedance.html">datedance.html</a></li>
+								<li class="item"><a href="./touch/touch.html">移动端触摸和点击的区别</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="article-box">
+						<div class="title">项目经验</div>
+						<div class="content">
+							<ul>
+								<li class="item"><a href="./workExp/iframe.html">react-iframe产生历史记录，影响react路由</a></li>
+								<li class="item"><a href="./workExp/ReactCSSTransitionGroup.html">react-ReactCSSTransitionGroup动画演示</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="article-box">
+						<div class="title">点滴记录</div>
+						<div class="content">
+							<ul>
+								<li class="item"><a href="https://www.cnblogs.com/ZSG-DoBestMe/p/5280250.html">Redux API之compose-从右到左来组合多个函数</a></li>
+								<li class="item"><a href="https://www.cnblogs.com/alan2kat/p/7754846.html">React-Router4 按需加载的4种实现</a></li>
+								<li class="item"><a href="http://www.alloyteam.com/2017/08/13065/">eslint-AlloyTeam ESLint 配置指南</a></li>
+								<li class="item"><a href="https://www.cnblogs.com/yanze/p/7879631.html">cross-env跨平台设置或使用环境变量</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="article-box">
+						<div class="title">性能优化及监控</div>
+						<div class="content">
+							<ul>
+								<li class="item"><a href="http://www.alloyteam.com/2014/03/front-end-data-monitoring/">页面错误监控、JS+CSS加载时间</a></li>
+								<li class="item"><a href="http://www.alloyteam.com/2015/05/wang-ye-xing-neng-zhi-html-css-javascript/">利用Chrome查看页面资源加载性能</a></li>
+								<li class="item"><a href="http://www.alloyteam.com/2015/09/explore-performance/">performance监控网页和程序性能</a></li>
+								<li class="item"><a href="http://www.alloyteam.com/2015/10/prefetching-preloading-prebrowsing/">预加载技术dns-prefetch, subresource, prefetch, preconnect, 和 prerender</a></li>
+								<li class="item"><a href="http://www.alloyteam.com/2016/01/points-about-resource-loading/">研究首屏时间，你得知道这几点</a></li>
+								<li class="item"><a href="http://www.alloyteam.com/2014/03/effect-js-css-and-img-event-of-domcontentloaded/">js/css/img对DOMContentLoaded的影响</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="left"></div>
+			<div class="right"></div>
+		</div>
+</body>
+</html>
